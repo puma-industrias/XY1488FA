@@ -1,0 +1,26 @@
+[XY1488FA]
+hash = "1488FA"
+autor = "soyul"
+dominio = "Y"
+fecha = 2026-01-03
+objetivo = "Calculadora basica en ESP32 para aprender arquitectura, parsing y manejo de recursos limitados"
+alcance = [
+  "Operaciones aritméticas básicas",
+  "Parsing manual de expresiones",
+  "Interfaz simple (botones + display)",
+  "Codigo entendible sin frameworks pesados",
+  "Metodos numericos: graficacion,limites,derivacion,newton-raphson,simpson,trapecio,rectangulo,euler-ED",
+  "Wifi transmitir operaciones",
+  "Comandos $"
+]
+[ESPECIFICACIONES]
+plataforma="ESP32"
+lenguaje="C++"
+tipo="embebido"
+tx="LCD16x2,OLED 0.95''"
+alimentacion="Li-ion 18650"
+chasis="3D"
+rx="teclado personalizado,joystick"
+[MERCADO]
+anima="🐀"
+licencia = "CERN-OHL-S-2.0"
